@@ -1,3 +1,3 @@
 main: net.deanosim.spigot.test.App
-name: BlankPlugin
+name: Spigot Test Plugin
 version: 0.1
