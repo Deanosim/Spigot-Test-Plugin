@@ -5,6 +5,8 @@ public class App extends JavaPlugin {
     @Override
     public void onEnable() {
         getLogger().info("Hello, SpigotMC!");
+
+        this.getCommand("brick").setExecutor(new CommandTest());
     }
     @Override
     public void onDisable() {

@@ -1,3 +1,9 @@
 main: net.deanosim.spigot.test.App
 name: Spigot-Test-Plugin
 version: 0.1
+
+
+commands:
+   {CommandTest}:
+      description: Get Bricked
+      usage: /{brick}
